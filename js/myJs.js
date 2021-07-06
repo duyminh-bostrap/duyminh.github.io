@@ -6,8 +6,8 @@ const textConfig = {
   text5: "Chị ong Nâu Nấu Nâu Nấu Nầu Nâu",
   text6: "Yêu lắm, mới tha cho lần này đấy!",
   text7: "Tại sao bạn tha thứ cho mình dợ!",
-  text8: "Tại vì bạn đáng iu <3 ",
-  text9: "Send",
+  text8: "Send",
+  text9: "Tại vì bạn đáng iu <3 ",
   text10: "Bạn đã thấy nhớ mình chưa ???",
   text11:
     "Mình nhớ bạn quá rùi nè! Hãy lan toả nguồn năng lượng này tới mọi người! Còn chờ gì nữa mà không inbox cho mình nào",
