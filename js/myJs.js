@@ -1,17 +1,17 @@
 const textConfig = {
-  text1: "Hi bạn!",
-  text2: "Đây là điều tôi muốn nói với bạn, mong rằng bạn sẽ chấp nhận nó!",
-  text3: "Xin lỗi...Xin lỗi đi...cho xin lỗi đi mà!",
-  text4: "Hãy quay lại, nếu bạn vẫn muốn hành hạ mình! Hỡi người đàn bà 2 tuổi Toẹt Vời nhất trên đời hãy trả lời đi ",
-  text5: "Chị ong Nâu Nấu Nâu Nấu Nầu Nâu",
-  text6: "Yêu lắm, mới tha cho lần này đấy!",
-  text7: "Tại sao bạn tha thứ cho mình dợ!",
+  text1: "Hi chào cậu!",
+  text2: "Tớ vừa gg search 1 khoá: how to become an interesting person? Thì tớ muốn nói với cậu 1 vài điều",
+  text3: "Cậu có muốn nch với tớ mỗi khi rảnh ko?",
+  text4: "Sau này chúng mình có thể đi xem phim, đi lượn lờ cùng nhau, hoặc ngồi chill ở một góc nào đó ko?",
+  text5: "Không đc đâu",
+  text6: "Oke nhó",
+  text7: "Cái nhìn đầu tiên của cậu về tớ là gì thế?",
   text8: "Send",
-  text9: "Tại vì bạn đáng iu <3 ",
-  text10: "Bạn đã thấy nhớ mình chưa ???",
+  text9: "Cậu đáng iu <3 ",
+  text10: "Cậu đã muốn ib với tớ chưa ???",
   text11:
-    "Mình nhớ bạn quá rùi nè! Hãy lan toả nguồn năng lượng này tới mọi người! Còn chờ gì nữa mà không inbox cho mình nào",
-  text12: "Oke iu <3",
+    "Tớ đang chờ cậu ib đó! ",
+  text12: "Inbox",
 };
 
 $(document).ready(function () {
@@ -35,8 +35,8 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       text: textConfig.text2,
-      imageUrl: "img/cuteCat.jpg",
-      imageWidth: 300,
+      imageUrl: "https://images-ssl.gotinder.com/60f4690a5f53f30100300ce7/640x800_942ce390-5843-4e74-9b57-be4c50fbc9b6.jpg",
+      imageWidth: 250,
       imageHeight: 300,
       background: '#fff url("img/iput-bg.jpg")',
       imageAlt: "Custom image",
@@ -114,7 +114,7 @@ $(document).ready(function () {
       html: true,
       width: 900,
       padding: "3em",
-      html: "<input type='text' class='form-control' id='txtReason'  placeholder='Whyyy'>",
+      html: "<input type='text' class='form-control' id='txtReason'  placeholder='Something'>",
       background: '#fff url("img/iput-bg.jpg")',
       backdrop: `
                     rgba(0,0,123,0.4)
@@ -138,7 +138,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "http://fb.com";
+            window.location = "https://www.facebook.com/duyminh.bostrap/";
           },
         });
       }
